@@ -5,6 +5,7 @@
 	min-height: 200px;
 	background:  white;
     display: flex;
+    opacity: 0.95;
 }
 
  
@@ -27,6 +28,7 @@ a
     padding:5px;
     display:flex;
     justify-content: center;
+    opacity: 0.95;
 
 }
 #album {
@@ -84,6 +86,23 @@ flex-wrap: wrap;
 justify-content: center;
 display: block;
 padding:30px;
+opacity: 0.95;
+}
+#blocbis
+{
+width:50%;
+background-color: white;
+text-align: center;
+flex-wrap: wrap;
+justify-content: center;
+
+padding:30px;
+background: black;
+    opacity: 0.8;
+     display: flex;
+    flex-direction:row;
+    margin:auto;
+    width:100%;
 }
 
 #conteneur
@@ -123,12 +142,12 @@ background-color: black
 }
 .form-style-10 .inner-wrap{
     padding: 30px;
-    background: #F8F8F8;
+    background: none;
     border-radius: 6px;
     margin-bottom: 15px;
 }
 .form-style-10 h1{
-    background: #2A88AD;
+    background: none;
     padding: 20px 30px 15px 30px;
     margin: 100px -30px 30px 0px;
     border-radius: 10px 10px 0 0;
@@ -150,7 +169,7 @@ background-color: black
 .form-style-10 label{
     display: block;
     font: 13px Arial, Helvetica, sans-serif;
-    color: #888;
+    color: white;
     margin-bottom: 15px;
 }
 .form-style-10 input[type="text"],
@@ -181,7 +200,7 @@ background-color: black
 
 .form-style-10 .section{
     font: normal 20px 'Bitter', serif;
-    color:black;
+    color:white;
     margin-bottom: 0px;
 }
 .form-style-10 .section span {
@@ -201,7 +220,7 @@ background-color: black
 .form-style-10 input[type="submit"]{
 
     background: #2A88AD;
-    padding: 8px 20px 30px 20px;
+    padding: 8px 20px 10px 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -226,19 +245,34 @@ background-color: black
     float: right;
     width: 22%;
     font: 12px Arial, Helvetica, sans-serif;
-    color: #4D4D4D;
+    color:white;
     margin-top: 10px;
     text-align: right;
 }
 .formulaire{
     width: 45%;
-    background-color:#2A88AD;
+    background-color:white;
         background: center;
         height: 100%;
         display: column;
+        padding-left: 30px;
 }
 footer{
     background: black;
-    weight:100%;
     opacity: 0.8;
+    weight:100%;
+    display: flex;
+    
+    
+}
+.cleareur{
+    clear:both;
+    color:transparent;
+    background: transparent;
+}
+.soc{
+     display: block;
+    display: inline;
+    width: 6px;
+    padding-top: 20px;
 }
