@@ -34,12 +34,19 @@ a
 #album {
     float: left;
     text-align: center;
+    margin-left:10px;
+  
 }
 #nav{
     padding:5px;
     display:flex;
+    
+
 
 }
+
+
+
 
 #section{
 }
@@ -52,6 +59,8 @@ a
     text-align: center;
     margin: 30px;
     padding: 10px;
+    display: flex;
+align-items: center;
 
 }
 
@@ -64,6 +73,8 @@ float: left;
 
 .nav{
     justify-content: center;
+    display: flex;
+align-items: center;
 }
 
 i{
@@ -126,7 +137,7 @@ background-color: black
 
 }
 
-<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 <style type="text/css">
 .form-style-10{
     width:20%;
@@ -271,8 +282,9 @@ footer{
     background: transparent;
 }
 .soc{
-     display: block;
-    display: inline;
+     display: inline;
+    margin-left: 55px;
     width: 6px;
+
     padding-top: 20px;
 }
