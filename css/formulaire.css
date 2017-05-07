@@ -1,142 +1,3 @@
-#header {
-    width: 100%;
-    height: 100%;
-    min-height: 200px;
-    background: white;
-    display: flex;
-    opacity: 0.95;
-}
-
-li {
-    display: inline-block;
-    margin-left: 1px;
-    padding-left: 0px;
-    text-decoration: none;
-    position: center;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-#menu {
-    padding: 5px;
-    display: flex;
-    justify-content: flex-start;
-    opacity: 0.95;
-    flex-wrap: nowrap;
-}
-
-#album {
-    float: left;
-    text-align: center;
-    padding: 15px;
-}
-
-button {
-    color: black;
-    background-color: orangered
-}
-
-.boutonsection {
-    color: blue;
-}
-
-nav {
-    padding: 5px;
-    display: flex;
-}
-
-#section {}
-
-.section1 {
-    float: right;
-}
-
-.section2 {
-    float: right;
-    text-align: center;
-    margin: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-#sub {
-    margin: 20px;
-    float: left;
-    display: flex;
-    justify-content: left;
-}
-
-.nav {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-i {
-    color: red;
-}
-
-body {
-    background-image: url("https://static.wixstatic.com/media/dccf66_91d75334266843778876031d9a44a6b6.jpg/v1/fill/w_1920,h_1920,al_t,q_85,usm_0.66_1.00_0.01/dccf66_91d75334266843778876031d9a44a6b6.jpg");
-    height: 90%;
-    background-attachment: fixed;
-    padding: 5%;
-    margin: 0;
-}
-
-#bloc {
-    width: 50%;
-    background-color: white;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: block;
-    padding: 30px;
-    opacity: 0.95;
-}
-
-#blocbis {
-    width: 50%;
-    background-color: white;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px;
-    background: black;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 100%;
-}
-
-#conteneur {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 100%;
-}
-
-.bouton a {
-    display: block;
-    width: 80px;
-    line-height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    color: gray;
-    text-decoration: none;
-    background-color: black
-}
-
-.bouton a:hover {
-    background: orangered no-repeat;
-}
-
 <link href="http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
  <style type="text/css">.form-style-10 {
     width: 20%;
@@ -277,6 +138,176 @@ body {
     padding-left: 30px;
 }
 
+#blocbis {
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    background: black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background: white;
+    display: flex;
+    opacity: 0.95;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 1px;
+    padding-left: 0px;
+    text-decoration: none;
+    position: center;
+    padding-top: 50px;
+}
+
+ul {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section2 {
+    float: right;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 5px;
+}
+
+body {
+    background-image: url("https://static.wixstatic.com/media/dccf66_91d75334266843778876031d9a44a6b6.jpg/v1/fill/w_1920,h_1920,al_t,q_85,usm_0.66_1.00_0.01/dccf66_91d75334266843778876031d9a44a6b6.jpg");
+    height: 90%;
+    background-attachment: fixed;
+    padding: 5%;
+    margin: 0;
+}
+
+.bouton a {
+    display: block;
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background: url(images/bouton-noir.png) no-repeat;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton a:hover {
+    background: gray no-repeat;
+}
+
+body {
+    background-image: url("https://static.wixstatic.com/media/dccf66_91d75334266843778876031d9a44a6b6.jpg/v1/fill/w_1920,h_1920,al_t,q_85,usm_0.66_1.00_0.01/dccf66_91d75334266843778876031d9a44a6b6.jpg");
+    height: 90%;
+    background-attachment: fixed;
+    padding: 5%;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background: white;
+    display: flex;
+    opacity: 0.95;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 1px;
+    padding-left: 0px;
+    text-decoration: none;
+    position: center;
+    padding-top: 50px;
+}
+
+nav {
+    padding: 5px;
+}
+
+ul {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.section2 {
+    float: right;
+    float: right;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+article {
+    max-width: 90%;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    opacity: 0.95;
+    margin: 20px;
+}
+
+figure {
+    background-color: white;
+    opacity: 0.90;
+    text-align: center;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+}
+
+#menu {
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0.95;
+    flex-wrap: nowrap;
+}
+
+#album {
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    color: black;
+    background-color: orangered
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -284,30 +315,45 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    opacity: 0.8
+    text-align: center;
 }
 
-.cleareur {
-    clear: both;
-    color: transparent;
-    background: transparent;
+.chanson:hover {
+    content: 'The Subways - Oh Yeah - Official Video';
 }
 
-.soc {
-    display: inline;
-    margin-left: 55px;
-    width: 6px;
-    padding-top: 20px;
+#album {
+    padding: 10px;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    background: white;
-    width: 100%;
+a {
+    text-decoration: none;
+}
+
+.bouton2 {
+    color: black;
+    background-color: gray;
+    margin: 2%;
+}
+
+.gauche {
+    padding-right: 40%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0.8
+    align-content: row;
+    margin: 2%;
+}
+
+.bouton a {
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background: url(images/bouton-noir.png) no-repeat;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton a:hover {
+    background: gray no-repeat;
 }
