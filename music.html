@@ -87,6 +87,55 @@
 
             </article>
         </div>
+
+        <h1> To Listen List</h1>
+
+        <form id="form" action="index.html" method="GET">
+            <fieldset>
+
+                <label for="title">TITLE :</label>
+                <input id="input2" type="text" name="nom" id="titre">
+            </fieldset>
+
+
+            <fieldset>
+                <label for="liste">URL:</label>
+                <input id="inputa" type="text" name="prenom" id="list">
+
+            </fieldset>
+
+            <input id="recup" type="submit" value="Envoyer" />
+
+
+        </form>
+
+        <h2>List</h2>
+        <p id="texte"></p>
+        <SCRIPT>
+            let rec = document.querySelector("#form");
+            let id = 0;
+
+            function supprimer(idarticle) {
+                document.getElementById("ul" + idarticle).remove();
+
+
+
+            }
+            rec.addEventListener("submit", function(e) {
+                e.preventDefault();
+
+                let entree1 = document.querySelector("#input2");
+                let entree2 = document.querySelector("#inputa");
+                let elem = document.createElement("ul");
+                elem.id = "ul" + id;
+                elem.innerHTML = "<h1>" + entree1.value + "</h1>" + "<ul>" + entree2.value + "</ul>" + '<input onclick="supprimer(' + id + ')" id="button' + id + '" value="supprimer" type="button">' + '<input type="checkbox">';
+                document.body.appendChild(elem);
+                id++;
+
+
+
+            });
+        </SCRIPT>
         <footer>
 
 

@@ -90,6 +90,14 @@
                     background-color: orangered
                 }
                 
+                button:hover {
+                    background-color: grey;
+                }
+                
+                .bouton2:hover {
+                    background-color: cyan;
+                }
+                
                 footer {
                     position: fixed;
                     bottom: 0;
@@ -138,4 +146,16 @@
                 
                 .bouton a:hover {
                     background: gray no-repeat;
+                }
+                
+                form {
+                    background-color: white;
+                    opacity: 0.95;
+                }
+                
+                h1,
+                h2,
+                {
+                    background-color: white;
+                    opacity: 0.95;
                 }
